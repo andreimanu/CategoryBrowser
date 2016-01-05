@@ -1,12 +1,13 @@
-﻿<Window x:Class="IPSV2.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IPSV2"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="IPSV2.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid RenderTransformOrigin="0.483,0.552">
+        <telerik:RadTimePicker HorizontalAlignment="Left" Margin="167,203,0,0" VerticalAlignment="Top" StartTime="8:0:0" EndTime="20:0:0" ClockStyle="{DynamicResource RadClockStyle1}"/>
     </Grid>
 </Window>
